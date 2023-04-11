@@ -36,8 +36,8 @@ function draw() {
   background(0);
   ellipse(ball.position.x,ball.position.y,10)
   ground.display();
-  l.display();
-  r.display();
+  left.display();
+  right.display();
   
   drawSprites();
  
